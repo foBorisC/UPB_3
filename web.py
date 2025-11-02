@@ -90,7 +90,7 @@ def login():
 @app.route('/register', methods=['GET','POST'])  
 def register():
     '''
-        TODO: doimplementovat hashovanie
+        TODO: doimplementovat hashovanie, volanie funkcii
     '''
     form = RegisterForm()
 
